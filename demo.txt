@@ -1,9 +1,0 @@
-#Git fatal: the remote end hung up unexpectedly错误解决方案
-# 修改全局提交缓存大小
-git config --global http.postBuffer 524288000
-
-
-
-# 修改全局下载最低速度以及对应的最长时间
-git config --global http.lowSpeedLimit 0
-git config --global http.lowSpeedTime 999999
